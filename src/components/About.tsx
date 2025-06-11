@@ -7,8 +7,7 @@ const About = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Sobre Mim</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Especialista em serviços de TI com experiencia em atomações de processos com inteligência artificial,
-            focado em criar soluções que transformam negócios.
+            Especialista em serviços de TI com experiência em automações de processos com inteligência artificial, focado em criar soluções que transformam negócios.
           </p>
         </div>
 
