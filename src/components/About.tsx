@@ -15,8 +15,7 @@ const About = () => {
           <div className="space-y-6">
             <div className="prose prose-lg text-gray-700">
               <p>
-                Sou Leirisson, desenvolvedor full stack e especialista em automações inteligentes com
-                foco em soluções práticas e eficientes.
+                Sou Leirisson, desenvolvedor full stack júnior e especialista em automações inteligentes, com foco em soluções práticas e eficientes.
               </p>
               <p>
                 Trabalho com tecnologias modernas como <br />Node.js, Fastify, TypeScript, PostgreSQL, Prisma, React, Tailwind CSS e
