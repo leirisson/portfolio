@@ -1,4 +1,4 @@
-import { Heart, Code, Zap } from 'lucide-react';
+import { Code, Zap } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -13,8 +13,8 @@ const Footer = () => {
                 <Zap className="h-4 w-4 text-azul-tecno absolute -top-1 -right-1" />
               </div>
               <div>
-                <h3 className="text-xl font-bold">João Silva</h3>
-                <p className="text-sm text-gray-400">Automação & IA</p>
+                <h3 className="text-xl font-bold">Leirisson Souza dos Santos</h3>
+                <p className="text-sm text-gray-400">serviços de TI, Automação & IA</p>
               </div>
             </div>
             <p className="text-gray-400 leading-relaxed">
@@ -53,21 +53,19 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Contato</h4>
             <div className="space-y-2 text-gray-400">
-              <p>+55 (11) 99999-9999</p>
-              <p>joao@exemplo.com</p>
-              <p>São Paulo, Brasil</p>
+              <p>+55 (92) 99452-9227</p>
+              <p>leirissonsouza99@gmail.com</p>
+              <p>Manaus-Amazonas, Brasil</p>
             </div>
           </div>
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400 flex items-center justify-center space-x-1">
-            <span>Feito com</span>
-            <Heart className="h-4 w-4 text-red-500 fill-current" />
-            <span>para transformar negócios através da tecnologia</span>
+            <span>Transforme negócios através da tecnologia</span>
           </p>
           <p className="text-gray-500 text-sm mt-2">
-            © 2024 João Silva. Todos os direitos reservados.
+            © 2024 Leirison souza. Todos os direitos reservados.
           </p>
         </div>
       </div>

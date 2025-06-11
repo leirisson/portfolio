@@ -33,8 +33,8 @@ const Header = () => {
               <Zap className="h-4 w-4 text-azul-tecno absolute -top-1 -right-1" />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-gray-900">João Silva</h1>
-              <p className="text-xs text-gray-600">Automação & IA</p>
+              <h1 className="text-xl font-bold text-gray-900">Leirison Souza</h1>
+              <p className="text-xs text-gray-600">Serviços de TI</p>
             </div>
           </div>
 

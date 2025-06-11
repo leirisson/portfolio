@@ -16,7 +16,7 @@ const Projects = () => {
       title: 'Chatbot Inteligente com IA',
       description: 'Assistente virtual avançado com processamento de linguagem natural, capaz de responder perguntas complexas e executar tarefas automatizadas.',
       image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800',
-      technologies: ['OpenAI', 'Langchain', 'FastAPI', 'React'],
+      technologies: ['OpenAI', 'n8n', 'whatsapp'],
       icon: Bot,
       color: 'azul-tecno',
       liveUrl: '#',
@@ -98,7 +98,7 @@ const Projects = () => {
           ))}
         </div>
 
-        <div className="text-center mt-12">
+        {/* <div className="text-center mt-12">
           <a
             href="#contato"
             className="inline-flex items-center space-x-2 bg-gradient-to-r from-verde-folium to-azul-tecno text-white px-8 py-3 rounded-full font-semibold hover:from-azul-tecno hover:to-verde-folium transition-all duration-300 shadow-lg hover:shadow-xl"
@@ -106,7 +106,7 @@ const Projects = () => {
             <span>Ver Mais Projetos</span>
             <ExternalLink className="h-5 w-5" />
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );

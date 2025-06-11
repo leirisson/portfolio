@@ -30,7 +30,7 @@ const Contact = () => {
 
     // Format WhatsApp message
     const whatsappMessage = `Nome: ${formData.name}%0AEmail: ${formData.email}%0AMensagem: ${formData.message}`;
-    const whatsappNumber = "5511999999999"; // Replace with your actual WhatsApp number
+    const whatsappNumber = "5592994529227"; // Replace with your actual WhatsApp number
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
     // Simulate form submission delay
@@ -72,7 +72,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-medium text-gray-900">Telefone</p>
-                    <p className="text-gray-600">+55 (11) 99999-9999</p>
+                    <p className="text-gray-600">+55 (92) 99452-9227</p>
                   </div>
                 </div>
 
@@ -82,7 +82,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-medium text-gray-900">Email</p>
-                    <p className="text-gray-600">joao@exemplo.com</p>
+                    <p className="text-gray-600">leirisonsouza99@gmail.com</p>
                   </div>
                 </div>
 
@@ -92,7 +92,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-medium text-gray-900">Localização</p>
-                    <p className="text-gray-600">São Paulo, Brasil</p>
+                    <p className="text-gray-600">Manaus-Amazonas, Brasil</p>
                   </div>
                 </div>
               </div>

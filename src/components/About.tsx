@@ -7,7 +7,7 @@ const About = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Sobre Mim</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Especialista em automação de processos e inteligência artificial, 
+            Especialista em serviços de TI com experiencia em atomações de processos com inteligência artificial,
             focado em criar soluções que transformam negócios.
           </p>
         </div>
@@ -16,17 +16,16 @@ const About = () => {
           <div className="space-y-6">
             <div className="prose prose-lg text-gray-700">
               <p>
-                Sou um desenvolvedor apaixonado por automação e IA, com mais de 3 anos de experiência 
-                criando soluções que otimizam processos e geram resultados reais para empresas de 
-                todos os tamanhos.
+                Sou Leirisson, desenvolvedor full stack e especialista em automações inteligentes com
+                foco em soluções práticas e eficientes.
               </p>
               <p>
-                Minha expertise inclui desenvolvimento de automações com n8n, criação de APIs robustas 
-                com Node.js e Fastify, e integração de sistemas complexos usando PostgreSQL e TypeScript.
-              </p>
-              <p>
-                Acredito que a tecnologia deve ser uma ferramenta para simplificar a vida das pessoas 
-                e impulsionar negócios. Por isso, trabalho sempre com foco em soluções práticas e escaláveis.
+                Trabalho com tecnologias modernas como <br />Node.js, Fastify, TypeScript, PostgreSQL, Prisma, React, Tailwind CSS e
+                automações com IA generativa para otimizar rotinas como:
+                Contas a pagar e a receber
+                Gestão de contratos
+                Controle de ponto e RH
+                Atendimento automatizado via WhatsApp
               </p>
             </div>
           </div>
@@ -38,8 +37,8 @@ const About = () => {
                 <h3 className="text-xl font-semibold text-gray-900">Experiência</h3>
               </div>
               <p className="text-gray-700">
-                Mais de 50 projetos de automação entregues, desde pequenas integrações 
-                até sistemas complexos de IA empresarial.
+                Mais com projetos de automação entregues, desde pequenas integrações
+                até sistemas complexos.
               </p>
             </div>
 
@@ -49,8 +48,8 @@ const About = () => {
                 <h3 className="text-xl font-semibold text-gray-900">Foco</h3>
               </div>
               <p className="text-gray-700">
-                Resultados mensuráveis: redução de 80% no tempo de processos manuais 
-                e aumento de 300% na eficiência operacional.
+                Resultados mensuráveis: redução no tempo de processos manuais
+                e aumento  na eficiência operacional.
               </p>
             </div>
 
@@ -60,7 +59,7 @@ const About = () => {
                 <h3 className="text-xl font-semibold text-gray-900">Inovação</h3>
               </div>
               <p className="text-gray-700">
-                Sempre explorando as mais recentes tecnologias em IA e automação 
+                Sempre explorando as mais recentes tecnologias em IA e automação
                 para entregar soluções de ponta.
               </p>
             </div>

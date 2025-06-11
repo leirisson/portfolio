@@ -1,4 +1,4 @@
-import { Code, Database, Zap, Bot, Globe, Settings } from 'lucide-react';
+import { Code, Database, Zap, Bot, Settings } from 'lucide-react';
 
 const Skills = () => {
   const skillCategories = [
@@ -6,37 +6,31 @@ const Skills = () => {
       title: 'Automação',
       icon: Zap,
       color: 'verde-folium',
-      skills: ['n8n', 'Zapier', 'Make (Integromat)', 'Power Automate', 'Workflows API']
+      skills: ['n8n', 'Power Automate']
     },
     {
       title: 'Backend',
       icon: Code,
       color: 'azul-tecno',
-      skills: ['Node.js', 'Fastify', 'TypeScript', 'JavaScript', 'REST APIs']
+      skills: ['Node.js', 'Fastify', 'Express', 'TypeScript', 'JavaScript', 'REST APIs']
     },
     {
       title: 'Banco de Dados',
       icon: Database,
       color: 'terracota',
-      skills: ['PostgreSQL', 'MongoDB', 'Redis', 'Prisma ORM', 'SQL']
+      skills: ['PostgreSQL', 'Prisma ORM', 'SQL']
     },
     {
-      title: 'IA & Machine Learning',
+      title: 'IA',
       icon: Bot,
       color: 'verde-folium',
-      skills: ['OpenAI API', 'Langchain', 'Chatbots', 'NLP', 'Computer Vision']
-    },
-    {
-      title: 'Integrações',
-      icon: Globe,
-      color: 'azul-tecno',
-      skills: ['Webhooks', 'GraphQL', 'Microservices', 'API Gateway', 'OAuth']
+      skills: ['OpenAI API', 'Chatbots', 'NLP']
     },
     {
       title: 'DevOps',
       icon: Settings,
       color: 'terracota',
-      skills: ['Docker', 'AWS', 'CI/CD', 'Nginx', 'Linux']
+      skills: ['Docker', 'Linux']
     }
   ];
 
@@ -83,13 +77,13 @@ const Skills = () => {
           <h3 className="text-2xl font-semibold text-gray-900 mb-8">Certificações & Reconhecimentos</h3>
           <div className="flex flex-wrap justify-center gap-6">
             <div className="bg-white px-6 py-3 rounded-full shadow-md">
-              <span className="text-verde-folium font-semibold">n8n Certified Expert</span>
+              <span className="text-verde-folium font-semibold">n8n</span>
             </div>
-            <div className="bg-white px-6 py-3 rounded-full shadow-md">
+            {/* <div className="bg-white px-6 py-3 rounded-full shadow-md">
               <span className="text-azul-tecno font-semibold">AWS Solutions Architect</span>
-            </div>
+            </div> */}
             <div className="bg-white px-6 py-3 rounded-full shadow-md">
-              <span className="text-terracota font-semibold">OpenAI API Specialist</span>
+              <span className="text-terracota font-semibold">OpenAI API</span>
             </div>
           </div>
         </div>
