@@ -95,7 +95,7 @@ const Testimonials = () => {
         <div className="bg-white rounded-2xl p-8 shadow-lg">
           <h3 className="text-2xl font-bold text-gray-900 text-center mb-8">Resultados Comprovados</h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {achievements.map((achievement, index) => (
+            {achievements.map((achievement) => (
               <div key={achievement.description} className="text-center">
                 <div className={`text-4xl font-bold text-${achievement.color} mb-2`}>
                   {achievement.metric}
