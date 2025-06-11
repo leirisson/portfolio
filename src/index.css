@@ -1,0 +1,159 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3A7D44;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2E5D89;
+}
+
+/* Smooth transitions for all elements */
+* {
+  transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+}
+
+/* Custom color utilities for dynamic classes */
+.text-verde-folium {
+  color: #3A7D44;
+}
+
+.text-azul-tecno {
+  color: #2E5D89;
+}
+
+.text-terracota {
+  color: #D57A66;
+}
+
+.bg-verde-folium {
+  background-color: #3A7D44;
+}
+
+.bg-azul-tecno {
+  background-color: #2E5D89;
+}
+
+.bg-terracota {
+  background-color: #D57A66;
+}
+
+.border-verde-folium {
+  border-color: #3A7D44;
+}
+
+.border-azul-tecno {
+  border-color: #2E5D89;
+}
+
+.border-terracota {
+  border-color: #D57A66;
+}
+
+/* Hover states */
+.hover\:bg-verde-folium:hover {
+  background-color: #3A7D44;
+}
+
+.hover\:bg-azul-tecno:hover {
+  background-color: #2E5D89;
+}
+
+.hover\:bg-terracota:hover {
+  background-color: #D57A66;
+}
+
+.hover\:text-verde-folium:hover {
+  color: #3A7D44;
+}
+
+.hover\:text-azul-tecno:hover {
+  color: #2E5D89;
+}
+
+.hover\:text-terracota:hover {
+  color: #D57A66;
+}
+
+/* Focus states */
+.focus\:ring-verde-folium:focus {
+  --tw-ring-color: #3A7D44;
+}
+
+.focus\:ring-azul-tecno:focus {
+  --tw-ring-color: #2E5D89;
+}
+
+.focus\:ring-terracota:focus {
+  --tw-ring-color: #D57A66;
+}
+
+/* Background opacity variants */
+.bg-verde-folium\/10 {
+  background-color: rgba(58, 125, 68, 0.1);
+}
+
+.bg-azul-tecno\/10 {
+  background-color: rgba(46, 93, 137, 0.1);
+}
+
+.bg-terracota\/10 {
+  background-color: rgba(213, 122, 102, 0.1);
+}
+
+.bg-verde-folium\/5 {
+  background-color: rgba(58, 125, 68, 0.05);
+}
+
+.bg-azul-tecno\/5 {
+  background-color: rgba(46, 93, 137, 0.05);
+}
+
+.bg-terracota\/5 {
+  background-color: rgba(213, 122, 102, 0.05);
+}
+
+/* Line clamp utility */
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
